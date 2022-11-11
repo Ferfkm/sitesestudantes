@@ -1,0 +1,80 @@
+body{
+
+background-image: url(teste2.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+header{
+  background-color: white;
+}
+#logo{
+  width: 10%;
+  margin-left: 15%;
+}
+#banner{
+width: 100%;
+position: relative;
+}
+ul{
+  color: white;
+}
+nav {
+    position: absolute;
+    top: 10px;
+    right:20;
+    margin-left: 45%;
+    font-size: 30px; font-family: monospace;
+
+}
+nav li {
+    display: inline;
+}
+nav a{
+  text-decoration: none;
+  font-size: 100%;
+}
+.home{
+  margin-top: 10%;
+  text-decoration: none;
+    background-color: #b380cc;
+    color: white;
+    padding: 15px;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    position: relative;
+}
+.home:after {
+    content: '';
+    position: absolute;
+    border-bottom: solid 5px white;
+    bottom: 0;
+    left: 0;
+    right: 100%;
+    transition: all 500ms;
+}
+.home:hover:after {
+    right: 0;
+}
+em strong {
+    color: #FF0000;
+}
+.aluno1{
+  border-bottom: 20px solid #c1e4ef;
+  display: inline-block;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 130%;
+  font-weight: bold;
+  color: #0f1942;
+  margin: 2%
+
+}
+.aluno1 img{
+  width: 140px!important;
+  height: 140px!important;
+}
+.nome{
+    background-color: #c1e4ef;
+  }
